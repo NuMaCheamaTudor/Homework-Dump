@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1732103993 source:c:\users\tudor\documents\teme\problema de smecher\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

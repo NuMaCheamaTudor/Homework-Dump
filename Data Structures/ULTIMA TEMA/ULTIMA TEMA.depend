@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1734505075 source:c:\users\tudor\documents\teme\ultima tema\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+	<ctime>
+
