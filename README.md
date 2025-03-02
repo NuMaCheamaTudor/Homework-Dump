@@ -1,2 +1,7 @@
-# Homework-Dump
-A repository made specially for al my homeworks for all the subjects I studied in Univeristy.
+**📚 Homework Dump Repo**
+
+🎯 **About This Repository**
+
+**🎵 Fun Fact**
+
+_Did you know that listening to instrumental music while studying can boost concentration by 15%? Give it a try while working on your assignments! 🎶📖_
