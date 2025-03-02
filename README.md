@@ -5,6 +5,20 @@ Welcome to the my dump of all of (or a part of) my Uni homeworks – a structure
 **🗂️ Structure**
 
 Each folder corresponds to a specific subject or course, containing well-organized assignments:
+📁 Homework-Repo/
+ ├── 📂 ASC
+ │   ├──All of My work
+ ├── 📂 Autocad
+ │   ├── 📄 Strucutred for all of the labs for this subject
+ ├── 📂 Data Structures
+ │   ├── 📄 Some of the LAB assignments for this subject
+ ├── 📂 EA
+ │   ├── 📄 Some assigments
+ ├── 📂 PC1&2
+ │   ├── 📄 Some of the lab assignemnts
+ ├── 📂 USO
+ │   ├── 📄 Some problems that were solved, all of them are bassic UNIX functions emulated using C language
+ ├── 📄 README.md (this file)
 
 **🎵 Fun Fact**
 
