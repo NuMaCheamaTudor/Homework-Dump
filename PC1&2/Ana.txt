@@ -1,0 +1,49 @@
+#include <stdio.h>
+
+int comparare_fisiere(FILE *f1, FILE *f2){
+    int carc1=fgetc(f1);
+    int carc2=fgetc(f2);
+    while(carc1!=EOF&&carc2!=EOF){
+        if(carc1!=carc2){
+            return carc1-carc2;
+        }
+        carc1=fgetc(f1);
+        carc2=fgetc(f2);
+    }
+    return carc1-carc2;
+}
+
+int main(int argc, char *argv[]){
+    if(argc!=3){
+        printf("Utilizare: %s f1 f2\n",argv[0]);
+        return 1;
+    }
+
+    FILE *f1=fopen(argv[1],"r");
+    if(f1==NULL){
+        perror(argv[1]);
+        return 1;
+    }
+    
+    FILE *f2=fopen(argv[2],"r");
+    if(f2==NULL){
+        perror(argv[2]);
+        fclose(f1);
+        return 1;
+    }
+    int comp=comparare_fisiere(f1,f2);
+    if(comp>0){
+        printf("Fisierul %s este mai mare lexicografic decat fisierul %s\n",argv[1],argv[2]);
+    }
+    else if(comp<0){
+        printf("Fisierul %s este mai mic lexicografic decat fisierul %s\n",argv[1],argv[2]);
+    }
+    else{
+        printf("Fisierul %s si fisierul %s sunt egale din punct de vedere lexicografic\n",f1,f2);
+    }
+
+    fclose(f1);
+    fclose(f2);
+
+    return 0;
+}

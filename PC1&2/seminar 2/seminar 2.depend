@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1705315020 source:c:\users\tudor\documents\info\seminar 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
